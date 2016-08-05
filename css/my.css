@@ -1,0 +1,39 @@
+ul.bullet-none > li {
+  list-style-type: none;
+}
+
+span.rem-double {
+  font-size: 4rem;
+}
+
+h2.fragment.fragment-swap {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  transition: all 0.5s ease
+}
+
+ul.list-horizontal {
+  margin-left: 0;
+}
+
+ul.list-horizontal > li {
+  display: inline;
+  padding-right: 2rem;
+}
+
+.slides > section > .img-grid-flex {
+  display: flex;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.reveal > .slides .img-plain {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
